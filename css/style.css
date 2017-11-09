@@ -117,7 +117,7 @@ label {
   font-size: 16px; }
 
 .font20px {
-  font-size: 16px; }
+  font-size: 20px; }
 
 .font25px {
   font-size: 25px; }
@@ -443,7 +443,7 @@ label {
     padding-right: 5px; }
 
 .form-control {
-  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.055); }
+  box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.55); }
 
 .form-control[type="button"],
 .form-control[type="submit"],
@@ -466,7 +466,7 @@ label {
   border: 1px solid #007a92 !important; }
 
 .shadow {
-  box-shadow: 0.5px 0.866px 10px 0px rgba(0, 0, 0, 0.5); }
+  box-shadow: inset 0.5px 0.866px 10px 0px rgba(0, 0, 0, 0.5); }
 
 .theme-ececec {
   color: #ececec !important; }
@@ -566,10 +566,12 @@ label {
 
 .header {
   position: relative;
-  margin-bottom: 5px; }
+  height: 100vh; }
   .header .head-contain {
     position: relative;
     z-index: 2; }
+    .header .head-contain .hc-contain ul li {
+      margin-bottom: 10px; }
     .header .head-contain .b-nav ul li {
       padding-right: 25px; }
       .header .head-contain .b-nav ul li a {
@@ -595,16 +597,43 @@ label {
     bottom: 0;
     left: 0;
     content: '';
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     z-index: 1; }
 
-.bio {
-  border-top: 2px solid black; }
+.bio .bio-menu {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2; }
   .bio .bio-menu .mynav ul li {
     padding-right: 25px; }
     .bio .bio-menu .mynav ul li a {
       padding: 25px; }
-  .bio .bio-contain .b-img {
-    padding-right: 25px; }
+.bio .bio-contain .b-img {
+  padding-right: 25px; }
+.bio .bio-contain .b-dissc {
+  width: 75%; }
+
+.areas-expertise ul li a {
+  padding: 20px;
+  position: relative; }
+  .areas-expertise ul li a:before {
+    content: '';
+    position: absolute;
+    height: 15px;
+    width: 1px;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    top: 50%;
+    right: 0;
+    background-color: #000;
+    margin-right: -2px; }
+.areas-expertise ul li:last-child a:before {
+  display: none; }
+.areas-expertise ul li:first-child a {
+  padding-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */

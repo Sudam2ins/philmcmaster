@@ -140,7 +140,7 @@ label{
 	font-size: 16px;
 }
 .font20px{
-	font-size: 16px;
+	font-size: 20px;
 }
 .font25px{
 	font-size: 25px;
@@ -481,7 +481,7 @@ label{
 }
 
 .form-control{
-	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.055);
+	box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.55);
 }
 .form-control[type="button"],
 .form-control[type="submit"],
@@ -504,7 +504,7 @@ label{
 	border: 1px solid $theme-007a92 !important;
 }
 .shadow{
-	box-shadow: 0.5px 0.866px 10px 0px rgba(0, 0, 0, 0.5);
+	box-shadow:inset 0.5px 0.866px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -608,7 +608,7 @@ label{
 }
 .header{
 	position: relative;
-	margin-bottom: 5px;
+	height: 100vh;
 
 	.head-contain{
 		position: relative;
@@ -616,7 +616,15 @@ label{
 		.hc-name{
 
 		}
+		.hc-contain{
+			ul{
+				li{
+					margin-bottom: 10px;
+				}
+			}
+		}
 		.b-nav{
+
 			ul{
 				li{
 					padding-right: 25px;
@@ -649,17 +657,24 @@ label{
 		position: absolute;
 		@include coordinates(0,0,0,0);
 		content: '';
-		background-color: rgba(0,0,0,0.9);
+		background-color: rgba(0,0,0,0.8);
 		z-index: 1;
 	}
 }
 .bio{
-	border-top: 2px solid black;
+	
 	.bio-menu{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 2;
+
 		.logo{
 
 		}
 		.mynav{
+
 			ul{
 				li{
 					padding-right: 25px;
@@ -673,6 +688,51 @@ label{
 	.bio-contain{
 		.b-img{
 			padding-right: 25px;
+		}
+		.b-dissc{
+			width: 75%;
+		}
+	}
+}
+.areas-expertise{
+	.ae-prop{
+		//padding-right: 15px;
+	}
+	ul{
+		li{
+			//padding-right: 20px;
+			a{
+				padding: 20px;
+				position: relative;
+				&:before{
+					content: '';
+					position: absolute;
+					height: 15px;
+					width: 1px;
+					@include translate(0,-50%);
+					top:50%;
+					right:0;
+					background-color: #000;
+					margin-right:-2px;
+
+
+				}
+
+			}
+			&:last-child{
+
+				a{
+					&:before{
+						display: none;
+					}
+				}
+			}
+			&:first-child{
+
+				a{
+					padding-left: 5px;
+				}
+			}
 		}
 	}
 }
