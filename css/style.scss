@@ -736,3 +736,61 @@ label{
 		}
 	}
 }
+.clint-listing{
+	.cl-head{
+		h2{
+
+		}
+	}
+	.listing{
+		ul{
+			li{
+				a{
+					padding-right: 10px;
+				}
+			}
+		}
+	}
+}
+.infrastructure{
+	position: relative;
+	height: 100vh;
+	.infra-contain{
+		position: absolute;
+		@include translate(0,-50%);
+		top:50%;
+		
+		.inf-left{
+
+			.if-head{
+
+			}
+			.if-para{
+             padding: 0 20px;
+			}
+			.bc-link{
+
+			}
+		}
+		.inf-right{
+			.if-head{
+
+			}
+			.listing{
+				ul{
+					li{
+						padding-bottom: 10px;
+					}
+				}
+
+			}
+		}
+	}
+	&:after{
+		position: absolute;
+		@include coordinates(0,0,0,0);
+		content: '';
+		background-color: rgba(0,0,0,0.8);
+		z-index: -1;
+	}
+}

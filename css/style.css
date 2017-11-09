@@ -636,4 +636,31 @@ label {
 .areas-expertise ul li:first-child a {
   padding-left: 5px; }
 
+.clint-listing .listing ul li a {
+  padding-right: 10px; }
+
+.infrastructure {
+  position: relative;
+  height: 100vh; }
+  .infrastructure .infra-contain {
+    position: absolute;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    top: 50%; }
+    .infrastructure .infra-contain .inf-left .if-para {
+      padding: 0 20px; }
+    .infrastructure .infra-contain .inf-right .listing ul li {
+      padding-bottom: 10px; }
+  .infrastructure:after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: -1; }
+
 /*# sourceMappingURL=style.css.map */
