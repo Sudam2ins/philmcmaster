@@ -649,7 +649,7 @@ label{
 		position: absolute;
 		@include coordinates(0,0,0,0);
 		content: '';
-		background-color: rgba(0,0,0,.50);
+		background-color: rgba(0,0,0,0.9);
 		z-index: 1;
 	}
 }
