@@ -755,6 +755,7 @@ label{
 .infrastructure{
 	position: relative;
 	height: 100vh;
+	overflow: hidden;
 	.infra-contain{
 		position: absolute;
 		@include translate(0,-50%);

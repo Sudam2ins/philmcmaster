@@ -641,7 +641,8 @@ label {
 
 .infrastructure {
   position: relative;
-  height: 100vh; }
+  height: 100vh;
+  overflow: hidden; }
   .infrastructure .infra-contain {
     position: absolute;
     -webkit-transform: translate(0, -50%);
