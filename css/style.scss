@@ -755,14 +755,12 @@ label{
 .infrastructure{
 	position: relative;
 	height: 100vh;
-	//overflow: hidden;
+	
 	.infra-contain{
+		bottom:10%;
 		position: absolute;
-		@include translate(0,-50%);
-		top:60%;
-		
 		.inf-left{
-
+			//width: 50%;
 			.if-head{
 
 			}
@@ -776,6 +774,7 @@ label{
 			}
 		}
 		.inf-right{
+			//width: 50%;
 			.if-head{
 
 			}

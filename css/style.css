@@ -643,12 +643,8 @@ label {
   position: relative;
   height: 100vh; }
   .infrastructure .infra-contain {
-    position: absolute;
-    -webkit-transform: translate(0, -50%);
-    -ms-transform: translate(0, -50%);
-    -o-transform: translate(0, -50%);
-    transform: translate(0, -50%);
-    top: 60%; }
+    bottom: 10%;
+    position: absolute; }
     .infrastructure .infra-contain .inf-left .if-para {
       padding-right: 20px; }
     .infrastructure .infra-contain .inf-left .bc-link a {
