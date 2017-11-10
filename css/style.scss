@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
 }
 h1{
-	font-size: 48px;
+	font-size: 52px;
 }
 
 h2{
@@ -147,6 +147,9 @@ label{
 }
 .font45px{
 	font-size: 45px;
+}
+.font48px{
+	font-size: 48px;
 }
 .bdrs0{
 	border-radius: 0;
@@ -614,12 +617,13 @@ label{
 		position: relative;
 		z-index: 2;
 		.hc-name{
-
+			margin-bottom: 100px;
 		}
 		.hc-contain{
+
 			ul{
 				li{
-					margin-bottom: 10px;
+					margin-bottom: 15px;
 				}
 			}
 		}
