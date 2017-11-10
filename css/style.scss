@@ -695,6 +695,11 @@ label{
 		}
 		.b-dissc{
 			width: 75%;
+			.bc-cv{
+				a{
+					text-decoration: underline;
+				}
+			}
 		}
 	}
 }
@@ -773,7 +778,7 @@ label{
 			}
 			.bc-link{
 				a{
-					border-bottom: 1px solid #038b64;
+					text-decoration: underline;
 				}
 			}
 		}
