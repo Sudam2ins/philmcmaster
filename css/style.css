@@ -605,7 +605,8 @@ label {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 2; }
+  z-index: 2;
+  border-bottom: 1px solid #eee; }
   .bio .bio-menu .mynav ul li {
     padding-right: 25px; }
     .bio .bio-menu .mynav ul li a {
