@@ -755,11 +755,11 @@ label{
 .infrastructure{
 	position: relative;
 	height: 100vh;
-	overflow: hidden;
+	//overflow: hidden;
 	.infra-contain{
 		position: absolute;
 		@include translate(0,-50%);
-		top:50%;
+		top:60%;
 		
 		.inf-left{
 
@@ -767,10 +767,12 @@ label{
 
 			}
 			.if-para{
-             padding: 0 20px;
+				padding-right:20px;
 			}
 			.bc-link{
-
+				a{
+					border-bottom: 1px solid #038b64;
+				}
 			}
 		}
 		.inf-right{
