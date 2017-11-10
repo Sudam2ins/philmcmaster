@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
 }
 h1{
-	font-size: 52px;
+	font-size: 70px;
 }
 
 h2{
@@ -617,13 +617,13 @@ label{
 		position: relative;
 		z-index: 2;
 		.hc-name{
-			margin-bottom: 100px;
+			margin-bottom: 70px;
 		}
 		.hc-contain{
 
 			ul{
 				li{
-					margin-bottom: 15px;
+					margin-bottom: 10px;
 				}
 			}
 		}
@@ -695,6 +695,9 @@ label{
 		}
 		.b-dissc{
 			width: 75%;
+			p{
+				padding-right: 15px;
+			}
 			.bc-cv{
 				a{
 					text-decoration: underline;
@@ -705,11 +708,11 @@ label{
 }
 .areas-expertise{
 	.ae-prop{
-		//padding-right: 15px;
+		
 	}
 	ul{
 		li{
-			//padding-right: 20px;
+			
 			a{
 				padding: 20px;
 				position: relative;
@@ -761,11 +764,11 @@ label{
 		}
 	}
 }
-.infrastructure{
+.features{
 	position: relative;
 	height: 100vh;
 	
-	.infra-contain{
+	.features-contain{
 		bottom:10%;
 		position: absolute;
 		.inf-left{
@@ -783,7 +786,7 @@ label{
 			}
 		}
 		.inf-right{
-			//width: 50%;
+			
 			.if-head{
 
 			}
