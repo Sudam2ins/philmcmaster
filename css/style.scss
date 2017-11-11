@@ -636,6 +636,7 @@ label{
 						padding-right: 25px;
 						position: relative;
 
+
 					}
 					&:first-child{
 						a{
@@ -675,7 +676,11 @@ label{
 		z-index: 2;
 		border-bottom: 1px solid #eee;
 		.logo{
-
+			a{
+				h1{
+					margin: 0;
+				}
+			}
 		}
 		.mynav{
 

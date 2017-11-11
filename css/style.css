@@ -612,6 +612,8 @@ label {
   left: 0;
   z-index: 2;
   border-bottom: 1px solid #eee; }
+  .bio .bio-menu .logo a h1 {
+    margin: 0; }
   .bio .bio-menu .mynav ul li {
     padding-right: 25px; }
     .bio .bio-menu .mynav ul li a {
