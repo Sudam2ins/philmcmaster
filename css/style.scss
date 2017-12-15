@@ -55,7 +55,7 @@ body,html{
 
 body{
 	background:$theme-ffffff;
-	color:#333333;
+	color:#232323;
 	font-size: 14px;
 	font-family: 'proxima-nova-regular';
 	font-weight: 400;
@@ -115,7 +115,7 @@ img{
 }
 
 h1,h2,h3,h4,h5,h6{
-	
+	margin: 0;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -123,6 +123,13 @@ h1,h2,h3,h4,h5,h6{
 }
 h1{
 	font-size: 72px;
+	@media (max-width:992px){
+		font-size: 50px
+	}
+	@media  (max-width:767px){
+		font-size: 35px
+	}
+
 }
 
 h2{
@@ -645,34 +652,58 @@ p{
 .header{
 	position: relative;
 	height: 100vh;
+	@media  (max-width:767px){
+		height: 50vh;
+	}
 
 
 	.head-contain{
 		position: relative;
 		z-index: 2;
+		@media  (max-width:767px){
+			padding-left: 25px;
+		}
 		.hc-name{
 			margin-bottom: 100px;
+			@media  (max-width:767px){
+				margin-bottom: 25px;
+			}
 
 		}
 		.hc-contain{
-
+			
+			@media  (max-width:767px){
+				
+			}
 			>	ul{
 				li{
 					//margin-bottom: 10px;
 					a{
 						font-size: 72px;
+						@media (max-width:992px){
+							font-size: 50px
+						}
+						@media  (max-width:767px){
+							font-size: 35px
+						}
 					}
 				}
 			}
 		}
 		.b-nav{
-
+			padding-top: 30px;
+			@media  (max-width:767px){
+				padding-top: 15px;
+			}
 			ul{
 				li{
 					padding-right: 25px;
 					a{
 						padding-right: 25px;
 						position: relative;
+						@media  (max-width:767px){
+							font-size: 18px;
+						}
 
 
 					}
@@ -704,15 +735,24 @@ p{
 		box-shadow: 0 1px 0 1px rgba(55,55,55,0.031);
 		
 		.logo{
+			padding: 20px 0;
+			@media  (max-width:767px){
+						padding: 10px 0;
+					}
 			a{
 				h5{
 					margin: 0;
 					font-size: 38.9px;
+					@media  (max-width:767px){
+						font-size: 20px;
+					}
 				}
 			}
 		}
 		.mynav{
-
+			@media  (max-width:767px){
+				display: none;
+			}
 			ul{
 				li{
 					
